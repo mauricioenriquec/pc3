@@ -1,0 +1,29 @@
+.tip-calculator {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+  }
+  
+  .input-section {
+    width: 50%;
+  }
+  
+  .tip-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .reset-button {
+    background: #26c0ab;
+    color: #00474b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+  }
+  

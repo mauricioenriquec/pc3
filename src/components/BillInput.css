@@ -1,0 +1,21 @@
+.bill-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .bill-input label {
+    font-size: 18px;
+    color: #7f9c9f;
+    margin-bottom: 5px;
+  }
+  
+  .bill-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background: #f3f9fa;
+  }
+  

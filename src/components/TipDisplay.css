@@ -1,0 +1,44 @@
+.tip-display {
+  background: #00474b;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.tip-display .tip-amount,
+.tip-display .total {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tip-display .tip-amount p,
+.tip-display .total p {
+  margin: 0;
+  font-size: 16px;
+  color: #7f9c9f;
+}
+
+.tip-display h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #26c0ab;
+}
+
+.tip-display p:last-child {
+  margin-top: 5px;
+}
+
+.reset-button {
+  background: #26c0ab;
+  color: #00474b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+}

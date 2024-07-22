@@ -1,0 +1,88 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #c5e4e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  max-width: 920px;
+  text-align: center;
+}
+
+header {
+  margin: 40px 0;
+}
+
+header img {
+  height: 40px;
+}
+
+.tip-calculator {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.input-section {
+  width: 50%;
+}
+
+.tip-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tip-button {
+  width: 48%;
+  padding: 10px;
+  background: #00474b;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.tip-button.custom {
+  background: #26c0ab;
+}
+
+.tip-display {
+  width: 45%;
+  background: #00474b;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tip-display .tip-amount, .tip-display .total {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.tip-display h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.reset-button {
+  background: #26c0ab;
+  color: #00474b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}

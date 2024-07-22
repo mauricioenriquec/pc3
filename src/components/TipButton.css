@@ -1,0 +1,17 @@
+.tip-button {
+    width: 48%;
+    padding: 15px;
+    font-size: 20px;
+    background: #00474b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .tip-button.custom {
+    background: #26c0ab;
+  }
+  

@@ -1,0 +1,21 @@
+.people-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .people-input label {
+    font-size: 18px;
+    color: #7f9c9f;
+    margin-bottom: 5px;
+  }
+  
+  .people-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background: #f3f9fa;
+  }
+  
